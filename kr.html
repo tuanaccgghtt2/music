@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X0X8WXJ0G6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-X0X8WXJ0G6');
+  </script>
+  
+  <title>Nhạc Hàn | Hoàng Tuân - Music</title>
+  <link rel="icon" type="image/png" href=./assets/icon.png />
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/backtop.css" />
+  <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+  <meta name="description" content="Hoàng Tuân Music">
+  <meta name="keywords" content="Hoàng Tuân Music, tuandb, nhạc hàn hoàng tuân, music korean">
+  <meta name="author" content="tuandb">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="apple-mobile-web-app-title" content="Hoàng Tuân Music">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta property="og:url" content="https://music.tuandb.name.vn/">
+  <meta property="og:title" content="Hoàng Tuân Music">
+  <meta property="og:site_name" content="Hoàng Tuân Music">
+  <meta property="og:description" content="Hoàng Tuân Music">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://music.tuandb.name.vn/assets/icon.png">
+  <meta property="twitter:domain" content="music.tuandb.name.vn">
+  <meta property="twitter:url" content="https://music.tuandb.name.vn/">
+  <meta property="twitter:card" content="summary">
+  <meta property="twitter:title" content="Hoàng Tuân Music">
+  <meta property="twitter:description" content="Hoàng Tuân Music">
+  <meta property="twitter:image" content="https://music.tuandb.name.vn/assets/icon.png">
+  <meta itemprop="name" content="Hoàng Tuân Music">
+  <meta itemprop="description" content="Hoàng Tuân Music">
+  <meta itemprop="image" content="https://music.tuandb.name.vn/assets/icon.png">
+</head>
+<body>
+  <div class="player">
+    <!-- Dashboard -->
+    <div class="dashboard">
+
+      <!-- Header -->
+      <header>
+        <h4>Bài hát hiện tại:</h4>
+        <h2></h2>
+      </header>
+
+      <!-- CD -->
+      <div class="cd">
+        <div class="cd-thumb"
+          style="background-image: url('')">
+        </div>
+      </div>
+
+      <!-- volume -->
+      <div class="volume ">
+        <input type="range" min="0" max="100" value="100" class="volume-range">
+        <div class="icon ">
+          <i class="fa fa-volume-up icon-size icon-volume-on" aria-hidden="true"></i>
+          <i class="fas fa-volume-off icon-size icon-volume-off" aria-hidden="true"></i>
+        </div>
+        <div class="bar-hoverbox">
+          <div class="bar">
+            <div class="bar-fill"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Control -->
+      <div class="control">
+        <div class="btn btn-repeat">
+          <i class="fas fa-redo"></i>
+        </div>
+        <div class="btn btn-prev">
+          <i class="fas fa-step-backward"></i>
+        </div>
+        <div class="btn btn-toggle-play playing">
+          <i class="fas fa-pause icon-pause"></i>
+          <i class="fas fa-play icon-play"></i>
+        </div>
+        <div class="btn btn-next">
+          <i class="fas fa-step-forward"></i>
+        </div>
+        <div class="btn btn-random">
+          <i class="fas fa-random"></i>
+        </div>
+      </div>
+
+      <input id="progress" class="progress" type="range" value="0" step="1" min="0" max="100">
+
+      <audio id="audio" src=""></audio>
+
+      <!-- List music -->
+      <!-- <div class="btn-list">
+        <i class="fas fa-list-ul"> PlayList
+          <div class="list-music">
+            <a class="list-music_link" href="#">Nhạc Trung</a>
+            <hr >
+            <a class="list-music_link" href="/vn">Nhạc Việt</a>
+         </div>
+        </i>
+      </div> -->
+
+      <details >
+        <summary class="btnlist">Danh sách nhạc</summary>
+          <div class="music-country">
+            <a class="music-country_link" href="/">Nhạc Việt</a>
+            <a class="music-country_link" href="/ch">Nhạc Trung</a>
+            <!-- <a class="music-country_link" href="/kr">Nhạc Hàn</a> -->
+            <a class="music-country_link" href="/us-uk">US-UK</a>
+            <a class="music-country_link" href="/other">Nhạc Khác</a>
+          </div>
+      </details>
+    </div>
+
+    <!-- Playlist -->
+    <div class="playlist">
+
+    </div>
+
+  </div>
+
+  <a href="#" class="cd-top text-replace js-cd-top">Top</a>
+  
+  <script src="./source/kr.js"></script>
+  <script src="./assets/js/backtop.js"></script>
+</body>
+</html>
